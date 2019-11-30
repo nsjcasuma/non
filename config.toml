@@ -76,6 +76,4 @@ notAlternative = true
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 params = ["categories", "tags"] 
 =======
-theme = "hugo-theme-cleanwhite"
-title = "My New Hugo Site"
->>>>>>> 1019054a88f98752e2156b3ebe98adb17ac40d18
+
