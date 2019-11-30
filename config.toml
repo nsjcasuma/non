@@ -12,7 +12,7 @@ paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+home = ["HTML", "RSS"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
@@ -40,17 +40,32 @@ home = ["HTML", "RSS", "Algolia"]
   bookmarks = false
   about_me = true
 
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+weight = 1
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts/"
+weight = 2
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+url = "blogs/"
+weight = 3
+
   [params.social]
   rss            = true 
   email          = "youremail@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
-  #twitter       = "full profile url in twitter"
+  # facebook      = "full profile url in facebook"
+  # googleplus    = "full profile url in googleplus"
+  # twitter       = "full profile url in twitter"
   linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
   stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
   github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
   # medium         = "full profile url in medium"
   # pinterest     = "full profile url in pinterest"
   # reddit        = "full profile url in reddit"
@@ -66,14 +81,4 @@ home = ["HTML", "RSS", "Algolia"]
   title =  "ABOUT"
   href =  "/top/about/"
 
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"] 
-=======
 
