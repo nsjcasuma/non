@@ -1,22 +1,26 @@
 baseurl = "https://tehng.onrender.com"
-title = "佇遮"
-theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
-
-[params]
-  header_image = "img/home-bg-jeep.jpg"
-
+theme = "hugo-theme-cleanwhite"
+title = "佇遮"
 [[menu.main]]
+<<<<<<< HEAD
 identifier = "about"
 name = "About"
 url = "about/"
 weight = 1
 
+=======
+identifier = "blog"
+name = "blog"
+url = "blogs/"
+weight = 3
+>>>>>>> 45cf90f409ab4fddc15d4c741419443488a3ea33
 [[menu.main]]
 identifier = "posts"
 name = "Posts"
 url = "posts/"
 weight = 2
+<<<<<<< HEAD
 
 [[menu.main]]
 identifier = "blog"
@@ -26,3 +30,7 @@ weight = 3
 
 
 
+=======
+[params]
+header_image = "img/home-bg-jeep.jpg"
+>>>>>>> 45cf90f409ab4fddc15d4c741419443488a3ea33
