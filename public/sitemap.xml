@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://localhost:8080/posts/my-first-post/</loc>
+    <lastmod>2019-11-30T16:28:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://localhost:8080/posts/</loc>
+    <lastmod>2019-11-30T16:28:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://localhost:8080/</loc>
+    <lastmod>2019-11-30T16:28:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/posts/aer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tags/</loc>
   </url>
   
 </urlset>
